@@ -1,0 +1,129 @@
+body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+/* header */
+
+.invitacion{
+    outline: 3px solid black;
+    position: absolute;
+    right: 500px;
+    top: 100px;
+    font-size: 20px;
+}
+
+/* main */
+
+.logo{
+    width: 300px;
+    height: 300px;
+    margin-right: 200px;
+}
+
+.informacion{
+    outline: 3px solid black;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 700px;
+    bottom: 100px;
+    right: 270px;
+}
+
+.division{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* decoracion */
+
+.objeto1{
+    width: 1000px;
+    height: 300px;
+    position: absolute;
+    background-color: aquamarine;
+    bottom: 250px;
+    left: -500px;
+    rotate:82deg;
+}
+
+.objeto2{
+    width: 1150px;
+    height: 50px;
+    position: absolute;
+    background-color: yellow;
+    bottom: 250px;
+    left: -400px;
+    rotate:82deg;
+}
+
+.objeto3{
+    width: 130px;
+    height: 0px;
+    position: absolute;
+    background-color: transparent;
+    box-sizing: border-box;
+    border-bottom: 1300px solid red;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    left: 120px;
+    top: -430px;
+    rotate: -11deg;
+    z-index: 0;
+}
+
+.objeto4{
+    width: 1000px;
+    height: 30px;
+    position: absolute;
+    background-color: yellow;
+    bottom: 350px;
+    left: -210px;
+    rotate: 76.5deg;
+}
+
+.objeto5{
+    color: azure;
+    width: 1260px;
+    height: 170px;
+    position: absolute;
+    background: rgb(244,223,152);
+    background: linear-gradient(0deg, rgba(244,223,152,1) 0%, rgba(208,162,20,1) 50%, rgba(246,185,85,1) 100%);
+    rotate: -45deg;
+    top: 300px;
+    left: -400px;
+}
+
+.objeto_panaderia{
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+    margin-bottom: 15px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.objeto6{
+    width: 1150px;
+    height: 40px;
+    position: absolute;
+    background-color: rgb(105, 84, 6);
+    bottom: 420px;
+    left: -350px;
+    rotate: -45deg;
+}
+
+.objeto7{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    background-color: aquamarine;
+    rotate: 45deg;
+    left: 150px;
+    top: -100px;
+    z-index: -1;
+}
