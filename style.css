@@ -7,9 +7,9 @@ body{
 /* header */
 
 .invitacion{
-    outline: 3px solid black;
     position: absolute;
-    right: 500px;
+    right: 350px;
+    text-align: center;
     top: 100px;
     font-size: 20px;
 }
@@ -17,18 +17,16 @@ body{
 /* main */
 
 .logo{
-    width: 300px;
-    height: 300px;
+    width: 450px;
+    height: 450px;
     margin-right: 200px;
+    margin-right: 250px;
 }
 
 .informacion{
-    outline: 3px solid black;
     position: absolute;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    width: 700px;
     bottom: 100px;
     right: 270px;
 }
@@ -36,7 +34,14 @@ body{
 .division{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: end;
+    position: relative;
+    right: 110px;
+    font-size: 25px;
+}
+
+.informacion_ubicavion, .informacion_redes{
+    margin-bottom: 0;
 }
 
 /* decoracion */
@@ -45,7 +50,7 @@ body{
     width: 1000px;
     height: 300px;
     position: absolute;
-    background-color: aquamarine;
+    background-color: rgba(244,223,152,1);
     bottom: 250px;
     left: -500px;
     rotate:82deg;
@@ -55,7 +60,7 @@ body{
     width: 1150px;
     height: 50px;
     position: absolute;
-    background-color: yellow;
+    background-color: rgb(105, 84, 6);
     bottom: 250px;
     left: -400px;
     rotate:82deg;
@@ -67,7 +72,7 @@ body{
     position: absolute;
     background-color: transparent;
     box-sizing: border-box;
-    border-bottom: 1300px solid red;
+    border-bottom: 1300px solid  rgba(208,162,20,1);
     border-left: 60px solid transparent;
     border-right: 60px solid transparent;
     left: 120px;
@@ -80,7 +85,7 @@ body{
     width: 1000px;
     height: 30px;
     position: absolute;
-    background-color: yellow;
+    background-color:  rgb(105, 84, 6);
     bottom: 350px;
     left: -210px;
     rotate: 76.5deg;
@@ -121,9 +126,22 @@ body{
     width: 400px;
     height: 400px;
     position: absolute;
-    background-color: aquamarine;
+    background-color: rgba(244,223,152,1);
     rotate: 45deg;
     left: 150px;
     top: -100px;
     z-index: -1;
+}
+
+.diseño_pantalla{
+    position: absolute;
+    right: 170px;
+    top: -200px;
+}
+
+.diseño_pantalla1{
+    position: absolute;
+    width: 1000px;
+    bottom: -450px;
+    right: -500px;
 }
